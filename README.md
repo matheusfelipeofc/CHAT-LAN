@@ -30,4 +30,19 @@ Este é um aplicativo de chat simples que permite a comunicação entre vários 
 Primeiro, inicie o servidor que ficará responsável por gerenciar as conexões de clientes.
 
 ```bash
-python servidor.py
+python server.py
+```
+
+### 2. Conectando os Clientes
+
+Em cada máquina cliente, execute o seguinte comando para conectar-se ao servidor e começar a enviar mensagens. Será necessário fornecer o endereço IP do servidor.
+
+```bash
+python cliente.py
+```
+
+Nota: Para descobrir o endereço IP do servidor, utilize o comando ipconfig no Windows ou ifconfig no Linux/Mac.
+
+### Estrutura do Projeto
+├── servidor.py        # Código do servidor que gerencia conexões e mensagens
+└── cliente.py         # Código do cliente que se conecta ao servidor
