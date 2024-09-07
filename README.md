@@ -41,8 +41,10 @@ Em cada máquina cliente, execute o seguinte comando para conectar-se ao servido
 python cliente.py
 ```
 
-Nota: Para descobrir o endereço IP do servidor, utilize o comando ipconfig no Windows ou ifconfig no Linux/Mac.
+Nota: Para descobrir o endereço IP do servidor, utilize o comando `ipconfig` no Windows ou `ifconfig` no Linux/Mac.
 
-### Estrutura do Projeto
-├── servidor.py
-└── cliente.py
+# Desafios e Oportunidades de Melhoria
+- Conexões de Rede: Configuração de sockets para gerenciar as conexões.
+- Gerenciamento de Múltiplos Clientes: O uso de threads permite a comunicação simultânea entre os clientes, mas pode ser aprimorado com bibliotecas como asyncio.
+- Segurança: Adicionar criptografia nas mensagens para aumentar a segurança da comunicação.
+- Interface Gráfica: Atualmente o chat usa o terminal. Você pode expandir o projeto para incluir uma interface gráfica utilizando bibliotecas como Tkinter ou PyQt.
