@@ -38,7 +38,7 @@ python server.py
 Em cada máquina cliente, execute o seguinte comando para conectar-se ao servidor e começar a enviar mensagens. Será necessário fornecer o endereço IP do servidor.
 
 ```bash
-python cliente.py
+python client.py
 ```
 
 Nota: Para descobrir o endereço IP do servidor, utilize o comando `ipconfig` no Windows ou `ifconfig` no Linux/Mac.
