@@ -44,5 +44,5 @@ python cliente.py
 Nota: Para descobrir o endereço IP do servidor, utilize o comando ipconfig no Windows ou ifconfig no Linux/Mac.
 
 ### Estrutura do Projeto
-├── servidor.py        # Código do servidor que gerencia conexões e mensagens
-└── cliente.py         # Código do cliente que se conecta ao servidor
+├── servidor.py
+└── cliente.py
